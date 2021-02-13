@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<style type="text/css">
+		body{
+			display: flex;
+			justify-content: center;
+		}
+		#container{
+			width:500px;
+			height: 500px;
+			border-width: 2px;
+			background-color: yellow;
+			margin-top: 50px;
+			border-radius: 20px;
+		}
+		#name{
+			width:300px;
+			height: 350px;
+			border-width: 2px;
+			margin:0 auto;
+			margin-top: 10px;
+			background-color: orange;
+			border-radius: 20px;
+			padding-top: 20px;
+		}
+		#user{
+			padding: 20px 20px 20px 20px;
+		}
+		#username{
+			font-family: sans-serif;
+			font-style: bold;
+		}
+		input{
+			border-width: 1px;
+			border-radius: 5px;
+		}
+		#signin{
+			padding: 20px 20px 20px 20px;
+			font-size: 18px;
+		}
+		button{
+			border-width: 2px;
+			border-radius: 5px;
+			font-size: 13px;	
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div style="padding-left: 100px;">
+			<h2>Login form:</h2>
+		</div>
+		<div id="name">
+			<form>
+			<div id="user">
+				<label id="username">Username:</label>
+				<input type="text" name="text">
+			</div>
+
+			<div id="user">
+				<label id="username">Password :</label>
+				<input type="Password" name="Password">
+			</div>
+			<div id="signin" style="float: left; margin-left: 50px;">
+			<input type="submit" name="signin">
+			</div>
+		</form>
+			<div id="signin">
+				<form action="homepage.html">
+					<button>Back</button>
+				</form>
+			</div>
+			<div id="signin">
+					<a href="forgot.html">Forgot password</a>
+			</div>
+			<div id="signin">
+					<a href="registrationpage.html" target="home">Don't have an account click here</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
